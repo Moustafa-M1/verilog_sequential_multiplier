@@ -16,7 +16,7 @@ module data_path
 		.clk(clk), .nrst(nrst), .en(mulc_en), .d(b), .q(b_out)
 	);
 	
-	reg [2*M:0] p_reg, p_next;
+	reg [2*M:0] p_reg, p_next; // p register for multiplier and intermediate results
 		
 	always @(posedge clk, negedge nrst)
 		if(!nrst)
