@@ -1,0 +1,2 @@
+# verilog_sequential_multiplier
+Verilog sequential hardware multiplier
